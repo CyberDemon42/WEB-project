@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-background {
+    background: url(../img/wallpaper.jpg);
+    overflow-x: hidden;
+}
+
+.navbar {
+    border-bottom: 1px solid #333;
+}
+
+.navbar-logo-img {
+    width: 90px;
+}
+
+.nav-link.active {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+}
+
+.navbar .btn-outline-success {
+    color: #fff;
+    border-color: seagreen;
+}
+
+.container-fluid {
+    display: block;
+}
+
+.img-fluid {
+    display: block;
+    margin: 3% auto;
+    max-width: 10%;
+    height: auto;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.img-fluid:hover {
+    transform: translateY(-15px) scale(1.05);
+}
+
+.typing-effect1 {
+    font-family: 'Courier New', Courier, monospace; 
+    white-space: pre; 
+    color: white; 
+    font-size: 2rem; 
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 90%; 
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+}
+
+.typing-effect2 {
+    font-family: 'Courier New', Courier, monospace; 
+    white-space: pre; 
+    color: white;
+    font-size: 2rem; 
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 90%; 
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+}
+
+.typing-effect3 {
+    font-family: 'Courier New', Courier, monospace; 
+    white-space: pre; 
+    color: white; 
+    font-size: 2rem; 
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 90%; 
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+}
+
+@media (max-width: 768px) {
+    .typing-effect1 {
+        font-size: 1.5rem; 
+    }
+    .typing-effect2 {
+        font-size: 1.5rem; 
+    }
+    .typing-effect3 {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .typing-effect1 {
+        font-size: 1.2rem;
+    }
+    .typing-effect2 {
+        font-size: 1.2rem;
+    }
+    .typing-effect3 {
+        font-size: 1.2rem;
+    }
+}
+
+.footer-box {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+.footer-icons{
+    justify-content: center;
+    display: flex;
+}
+
+.footer-icons a img {
+    width: 50px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom p{
+    text-align: center;
+    color: white;
+}

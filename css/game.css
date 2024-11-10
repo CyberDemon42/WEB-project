@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+.game-description {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+.comments-section {
+    margin-top: 40px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+.comment {
+    border-bottom: 1px solid #444;
+    padding: 10px 0;
+}
+.comment-input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    width: 100%;
+}
+.submit-btn {
+    background-color: seagreen;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.load-more-btn {
+    background-color: #444;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
