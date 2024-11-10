@@ -1,0 +1,135 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/game.css">
+
+    <title>Game</title>            
+</head>
+<body style="background: url(img/wallpaper.jpg); overflow-x: hidden;">
+    <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+        <img class="navbar-logo-img" src="img/logo.png" width="100px">
+        <a class="navbar-brand" href="main.html"><h1>GameEnforce</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="my%20games.html">My Library</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="games.html">Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
+            </li>
+            <li>
+                <a class="nav-link active" aria-current="page" href="login.html" style="background-color: seagreen; border-radius: 50px; padding: 10px 30px; margin-left: 40px;">Sign up</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </header>
+
+
+     
+    <main class="container mt-5">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/game%209.jpeg" class="card-img-top" alt="Minecraft">
+                    <div class="card-body bg-dark text-white">
+                        <h3 class="card-title">Minecraft</h3>
+                        <p class="card-text">Genre: Adventure</p>
+                        <p class="card-text">Rate: 5/5</p>
+                        <button class="btn btn-success w-100" onclick="addNewImage()">Play Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h4>About the game</h4>
+                        <p>Minecraft is a sandbox game where players can build, mine, battle mobs, and explore a blocky, procedurally-generated 3D world. Players can also collaborate with other players or go on solo adventures, making it a highly flexible and creative gaming experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="comments-section mt-5">
+            <h4 class="mt-4">Add a Comment</h4>
+            <div class="form-group">
+                <textarea id="new-comment" class="form-control bg-dark text-white border-secondary" placeholder="Write your comment here..." rows="3"></textarea>
+                <button id="submit-comment" class="btn btn-success m-3">Submit Comment</button>
+            </div>
+            <h3>Comments</h3>
+            <div id="comments-list" class="list-group">
+                <div class="list-group-item bg-dark text-white comment"><strong>Nurboll:</strong> The best game ever!</div>
+                <div class="list-group-item bg-dark text-white comment"><strong>Nursultan:</strong> Not bad.</div>
+                <div class="list-group-item bg-dark text-white comment"><strong>Askar:</strong> Wow, cool!</div>
+                <div class="list-group-item bg-dark text-white comment"><strong>Nurboll:</strong> Good.</div>
+            </div>
+            <button id="load-more-btn" class="btn btn-secondary mt-3">Show more comments</button>
+        </div>
+
+    </main>
+    <footer class="mt-5">
+        <div class="footer-box" style="background-color: #1a1a1a;">
+            <div class = "footer-icons" style="display: flex; justify-content: center;">
+                <a href="" style="margin: 20px;"><img src="icons/telegram.png" width="50px"></a>
+                <a href="" style="margin: 20px;"><img src="icons/twitter.png" width="50px"></a>
+                <a href="" style="margin: 20px;"><img src="icons/youtube.png" width="50px"></a>
+                <a href="" style="margin: 20px;"><img src="icons/whatsapp.png" width="50px"></a>
+                <a href="" style="margin: 20px;"><img src="icons/instagram.png" width="50px"></a>
+            </div>
+            <div class="footer-nav">
+                <ul style="display: flex; justify-content: center;">
+                    <li style="margin: 20px;"><a href="main.html"><p style="color: white;">Home</p></a></li>
+                    <li style="margin: 20px;"><a href="aboutus.html"><p style="color: white;">About us</p></a></li>
+                    <li style="margin: 20px;"><a href="contacts.html"><p style="color: white;">Contacts</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom" style="background-color: black; display: flex; justify-content: center; padding: 20px;">
+                <p style="color: white; text-align: center;">Copyright &copy;2024; Designed by Team: Nursultan, Nurbol, Askar</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/game.js"></script>
+    <script>
+        const images = [
+            'img/game 9.jpeg'
+        ];
+
+
+        function addNewImage() {
+            const newImagePath = images[0];
+    
+            let imageArray = JSON.parse(localStorage.getItem('imageArray')) || [];
+    
+            imageArray.push(newImagePath);
+    
+            localStorage.setItem('imageArray', JSON.stringify(imageArray));
+            //localStorage.clear();
+
+        }
+    </script>
+</body>
+</html>

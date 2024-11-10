@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--==================== BOOSTRAP ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+<!--==================== CSS ====================-->
+    <link rel="stylesheet" href="css/main.css">
+<!--==================== JAVASCRIPT ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>main</title>            
+</head>
+<body>
+
+
+
+
+<!--==================== HEADER ====================-->
+<header>
+    <nav class="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+        <img class="navbar-logo-img" src="img/logo.png" width="50px">
+        <a class="navbar-brand" href="main.html"><h3>GameEnforce</h3></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="my%20games.html">My Library</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="game.html">Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
+            </li>
+            <li>
+                <a class="nav-link active" aria-current="page" href="login.html" style="background: linear-gradient(to right, #a8e063, #56ab2f); border-radius: 50px; padding: 10px 30px; margin-left: 40px;">Sign up</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+
+
+
+
+<!--==================== MAIN ====================-->
+<div class="wall">
+    <div class="container">
+        <main class="l-main bd-grid">
+            <section class="home">
+                <div class="home__data" >
+                    <h2 class="home__title">Play&Fun</h2>
+                    <p class="home__description">Your Favorite Games Collections with our compatable and comfortable game eco-system of browser games</p>
+                    <a href="#sec2">
+                        <button class="butt">
+                            <span class="text">Let's Jam</span>
+                        </button>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <img src="img/Arcademachine.png" alt="" class="Arcade">
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+
+
+
+
+<!--==================== FEATURES ====================-->
+
+<section class="container" id="sec2">
+    <div class="row">
+        <div class="col-12">
+            <h2 class=" fw-bold mb-3 text-center" style="color:#55aa2f; font-size: 60px">Key Features</h2>
+            <div class="row g-5 pb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card px-3 py-4 shadow-sm" style="background: -webkit-linear-gradient(90deg, hsla(132, 26%, 51%, 1) 0%, hsla(101, 62%, 48%, 1) 100%);">
+                        <h3 class="f5 fw-bold" style="color: black">Innovative Technology</h3>
+                        <p class="card-text lead" style="color: #ffffff">
+                            Explore products featuring the latest and most innovative
+                            technologies.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card px-3 py-4 shadow-sm blue-bg" style="background: -webkit-linear-gradient(90deg, hsla(132, 26%, 51%, 1) 0%, hsla(101, 62%, 48%, 1) 100%);">
+                        <h3 class="f5 fw-bold" style="color: black">Quality Assurance</h3>
+                        <p class="card-text lead" style="color: #ffffff">
+                            Our team ensures that every product meets high-quality
+                            performance.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 offset-md-3 offset-0 offset-lg-0">
+                    <div class="card px-3 py-4 shadow-sm" style="background: -webkit-linear-gradient(90deg, hsla(132, 26%, 51%, 1) 0%, hsla(101, 62%, 48%, 1) 100%);">
+                        <h3 class="f5 fw-bold" style="color: #000000">Timely Delivery</h3>
+                        <p class="card-text lead" style="color: #ffffff">
+                            Experience prompt and reliable delivery services to get your
+                            tech gear right now.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--==================== SEARCH ====================-->
+<div class="blur-background" id="blurBackground">
+    <div class="wrapper">
+        <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Type to search..">
+            <div class="autocom-box">
+            </div>
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+            </svg></div>
+        </div>
+    </div>
+</div>
+<script src="scripts/suggestions.js"></script>
+<script src="scripts/main.js"></script>
+
+
+
+
+
+<!--==================== VIDEO ESSAY ====================-->
+<div class="container">
+    <section class="parent-container d-flex mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <video class="embed-responsive-item h-100 w-100" src="video/Tube.mp4" muted autoplay playsinline tabindex="-1" loop></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="anitext1" style="font-size: 50px; color:#55aa2f; margin-bottom: 40px">Unleash Gaming Experience</h2>
+
+                    <p class="anitext2">The sound of rain hitting the roof was oddly comforting.
+                        She discovered a hidden trail that led to a peaceful meadow.
+                        The city lights sparkled like stars against the night sky.
+                        He found an old photograph that brought back a wave of memories.
+                        A gentle breeze stirred the leaves, creating a soothing rustle.</p>
+                    <button class="about_btn btn-primary px-5 d-inline-block">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="container mb-50">
+    <section class="parent-container d-flex mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="anitext1" style="font-size: 50px; color:#55aa2f; margin-bottom: 40px">Access More Games</h2>
+
+                    <p class="anitext2">The sound of rain hitting the roof was oddly comforting.
+                        She discovered a hidden trail that led to a peaceful meadow.
+                        The city lights sparkled like stars against the night sky.
+                        He found an old photograph that brought back a wave of memories.
+                        A gentle breeze stirred the leaves, creating a soothing rustle.</p>
+                    <button class="about_btn btn-primary px-5 d-inline-block">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <video class="embed-responsive-item h-100 w-100" src="video/Wavy.mp4" muted autoplay playsinline tabindex="-1" loop></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+<!--==================== CAROUSEL ====================-->
+<div class="container">
+    <div class="container-fluid container__slide">
+        <div class="slider">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+            <div class="box7"></div>
+        </div>
+    </div>
+</div>
+
+</main>
+
+
+
+
+<!--==================== SEND EMAIL ====================-->
+<section class="planet__container">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="embed-responsive embed-responsive-21by9">
+                <div class="planet-img">
+                    <img class="embed-responsive-item h-10 w-10 rounded mx-auto d-block" src="img/planet1.png">
+                    <h2 class="centered1">Get Start In Seconds</h2>
+                    <div class="container">
+                        <h1 class="centered2">Your Favorite Games Collections with our compatable and comfortable game eco-system of browser games</h1>
+                    </div>
+
+                    <div class="input-container" style="margin-bottom: 220px">
+                        <input required="" placeholder="Email Address" type="email">
+                        <button class="invite-btn" type="button">
+                            Get Started
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+<!--==================== FOOTER ====================-->
+        <footer>
+            <div class="glass">
+            <div class="footer-box">
+                <div class = "footer-icons" style="display: flex; justify-content: center;">
+                    <a href="" style="margin: 20px;"><img src="icons/telegram.png" width="50px"></a>
+                    <a href="" style="margin: 20px;"><img src="icons/twitter.png" width="50px"></a>
+                    <a href="" style="margin: 20px;"><img src="icons/youtube.png" width="50px"></a>
+                    <a href="" style="margin: 20px;"><img src="icons/whatsapp.png" width="50px"></a>
+                    <a href="" style="margin: 20px;"><img src="icons/instagram.png" width="50px"></a>
+                </div>
+                <div class="footer-nav">
+                    <ul style="display: flex; justify-content: center;">
+                        <li style="margin: 20px;"><a href="main.html"><h5 style="color: white;">Home</h5></a></li>
+                        <li style="margin: 20px;"><a href="aboutus.html"><h5 style="color: white;">About us</h5></a></li>
+                        <li style="margin: 20px;"><a href="contacts.html"><h5 style="color: white;">Contacts</h5></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom" style="background-color: black; display: flex; justify-content: center; padding: 20px;">
+                    <h6 style="color: white; text-align: center;">Copyright &copy;2024; Designed by Team: Nursultan, Nurbol, Askar</h6>
+                </div>
+            </div>
+            </div>
+        </footer>
+</body>
+
+
+<!--==================== SCRIPT ====================-->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+            document.querySelector('.home__title').style.opacity = '1';
+            document.querySelector('.home__title').style.transform = 'translateY(0)';
+        }, 500);
+
+        setTimeout(() => {
+            document.querySelector('.home__description').style.opacity = '1';
+            document.querySelector('.home__description').style.transform = 'translateY(0)';
+        }, 800);
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+            const centered1 = document.querySelector('.centered1');
+            if (centered1) {
+                centered1.style.opacity = '1';
+                centered1.style.transform = 'translate(-50%, -50%)';
+            }
+        }, 700);
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+            const img = document.querySelector('.planet-img img');
+            if (img) {
+                img.classList.add('animate'); // Добавляем класс для запуска анимации
+            }
+        }, 500); // Задержка перед запуском анимации
+    });
+
+</script>
+</html>
